@@ -6,8 +6,6 @@ void duplicates(int arr[], int n){
 		arr[arr[i] % n] = arr[arr[i] % n] + n ;
 	}
 }
-
-
 int main(){
 	int n;
 	cin>>n;
